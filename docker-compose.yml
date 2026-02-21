@@ -1,6 +1,7 @@
 services:
   qwen3-tts:
     build: .
+    platform: linux/amd64
     ports:
       - "7860:7860"
     volumes:
